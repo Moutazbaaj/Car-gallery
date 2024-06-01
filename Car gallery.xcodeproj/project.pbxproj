@@ -14,6 +14,17 @@
 		475CFB902C0B4E8E004F08A8 /* Car_galleryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475CFB8F2C0B4E8E004F08A8 /* Car_galleryTests.swift */; };
 		475CFB9A2C0B4E8E004F08A8 /* Car_galleryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475CFB992C0B4E8E004F08A8 /* Car_galleryUITests.swift */; };
 		475CFB9C2C0B4E8E004F08A8 /* Car_galleryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475CFB9B2C0B4E8E004F08A8 /* Car_galleryUITestsLaunchTests.swift */; };
+		475CFBD52C0B5A24004F08A8 /* AddCarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475CFBC52C0B5A24004F08A8 /* AddCarView.swift */; };
+		475CFBD62C0B5A24004F08A8 /* CarDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475CFBC62C0B5A24004F08A8 /* CarDetailsView.swift */; };
+		475CFBD72C0B5A24004F08A8 /* CarModelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475CFBC72C0B5A24004F08A8 /* CarModelsView.swift */; };
+		475CFBD82C0B5A24004F08A8 /* CarModelsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475CFBC82C0B5A24004F08A8 /* CarModelsViewModel.swift */; };
+		475CFBD92C0B5A24004F08A8 /* CarRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475CFBC92C0B5A24004F08A8 /* CarRow.swift */; };
+		475CFBDA2C0B5A24004F08A8 /* ManufacturerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475CFBCB2C0B5A24004F08A8 /* ManufacturerRow.swift */; };
+		475CFBDB2C0B5A24004F08A8 /* ManufacturersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475CFBCC2C0B5A24004F08A8 /* ManufacturersView.swift */; };
+		475CFBDC2C0B5A24004F08A8 /* ManufacturersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475CFBCD2C0B5A24004F08A8 /* ManufacturersViewModel.swift */; };
+		475CFBDD2C0B5A24004F08A8 /* CarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475CFBD02C0B5A24004F08A8 /* CarModel.swift */; };
+		475CFBDE2C0B5A24004F08A8 /* Manufacturer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475CFBD12C0B5A24004F08A8 /* Manufacturer.swift */; };
+		475CFBDF2C0B5A24004F08A8 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475CFBD22C0B5A24004F08A8 /* Repository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +55,17 @@
 		475CFB952C0B4E8E004F08A8 /* Car galleryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Car galleryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		475CFB992C0B4E8E004F08A8 /* Car_galleryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car_galleryUITests.swift; sourceTree = "<group>"; };
 		475CFB9B2C0B4E8E004F08A8 /* Car_galleryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car_galleryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		475CFBC52C0B5A24004F08A8 /* AddCarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCarView.swift; sourceTree = "<group>"; };
+		475CFBC62C0B5A24004F08A8 /* CarDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarDetailsView.swift; sourceTree = "<group>"; };
+		475CFBC72C0B5A24004F08A8 /* CarModelsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarModelsView.swift; sourceTree = "<group>"; };
+		475CFBC82C0B5A24004F08A8 /* CarModelsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarModelsViewModel.swift; sourceTree = "<group>"; };
+		475CFBC92C0B5A24004F08A8 /* CarRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarRow.swift; sourceTree = "<group>"; };
+		475CFBCB2C0B5A24004F08A8 /* ManufacturerRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManufacturerRow.swift; sourceTree = "<group>"; };
+		475CFBCC2C0B5A24004F08A8 /* ManufacturersView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManufacturersView.swift; sourceTree = "<group>"; };
+		475CFBCD2C0B5A24004F08A8 /* ManufacturersViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManufacturersViewModel.swift; sourceTree = "<group>"; };
+		475CFBD02C0B5A24004F08A8 /* CarModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarModel.swift; sourceTree = "<group>"; };
+		475CFBD12C0B5A24004F08A8 /* Manufacturer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Manufacturer.swift; sourceTree = "<group>"; };
+		475CFBD22C0B5A24004F08A8 /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +116,9 @@
 		475CFB7D2C0B4E8D004F08A8 /* Car gallery */ = {
 			isa = PBXGroup;
 			children = (
+				475CFBD32C0B5A24004F08A8 /* Model */,
+				475CFBD42C0B5A24004F08A8 /* Preview Content */,
+				475CFBCF2C0B5A24004F08A8 /* Screens */,
 				475CFB7E2C0B4E8D004F08A8 /* Car_galleryApp.swift */,
 				475CFB802C0B4E8D004F08A8 /* ContentView.swift */,
 				475CFB822C0B4E8E004F08A8 /* Assets.xcassets */,
@@ -125,6 +150,57 @@
 				475CFB9B2C0B4E8E004F08A8 /* Car_galleryUITestsLaunchTests.swift */,
 			);
 			path = "Car galleryUITests";
+			sourceTree = "<group>";
+		};
+		475CFBCA2C0B5A24004F08A8 /* CarModels */ = {
+			isa = PBXGroup;
+			children = (
+				475CFBC52C0B5A24004F08A8 /* AddCarView.swift */,
+				475CFBC62C0B5A24004F08A8 /* CarDetailsView.swift */,
+				475CFBC72C0B5A24004F08A8 /* CarModelsView.swift */,
+				475CFBC82C0B5A24004F08A8 /* CarModelsViewModel.swift */,
+				475CFBC92C0B5A24004F08A8 /* CarRow.swift */,
+			);
+			path = CarModels;
+			sourceTree = "<group>";
+		};
+		475CFBCE2C0B5A24004F08A8 /* Manufacturers */ = {
+			isa = PBXGroup;
+			children = (
+				475CFBCB2C0B5A24004F08A8 /* ManufacturerRow.swift */,
+				475CFBCC2C0B5A24004F08A8 /* ManufacturersView.swift */,
+				475CFBCD2C0B5A24004F08A8 /* ManufacturersViewModel.swift */,
+			);
+			path = Manufacturers;
+			sourceTree = "<group>";
+		};
+		475CFBCF2C0B5A24004F08A8 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				475CFBCA2C0B5A24004F08A8 /* CarModels */,
+				475CFBCE2C0B5A24004F08A8 /* Manufacturers */,
+			);
+			name = Screens;
+			path = "../../cargallery-Moutazbaaj/CarGallery/Screens";
+			sourceTree = "<group>";
+		};
+		475CFBD32C0B5A24004F08A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				475CFBD02C0B5A24004F08A8 /* CarModel.swift */,
+				475CFBD12C0B5A24004F08A8 /* Manufacturer.swift */,
+				475CFBD22C0B5A24004F08A8 /* Repository.swift */,
+			);
+			name = Model;
+			path = "../../cargallery-Moutazbaaj/CarGallery/Model";
+			sourceTree = "<group>";
+		};
+		475CFBD42C0B5A24004F08A8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Preview Content";
+			path = "../../cargallery-Moutazbaaj/CarGallery/Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +333,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				475CFBD52C0B5A24004F08A8 /* AddCarView.swift in Sources */,
+				475CFBDB2C0B5A24004F08A8 /* ManufacturersView.swift in Sources */,
+				475CFBDE2C0B5A24004F08A8 /* Manufacturer.swift in Sources */,
+				475CFBDF2C0B5A24004F08A8 /* Repository.swift in Sources */,
 				475CFB812C0B4E8D004F08A8 /* ContentView.swift in Sources */,
+				475CFBDC2C0B5A24004F08A8 /* ManufacturersViewModel.swift in Sources */,
+				475CFBD62C0B5A24004F08A8 /* CarDetailsView.swift in Sources */,
+				475CFBDD2C0B5A24004F08A8 /* CarModel.swift in Sources */,
 				475CFB7F2C0B4E8D004F08A8 /* Car_galleryApp.swift in Sources */,
+				475CFBD72C0B5A24004F08A8 /* CarModelsView.swift in Sources */,
+				475CFBDA2C0B5A24004F08A8 /* ManufacturerRow.swift in Sources */,
+				475CFBD82C0B5A24004F08A8 /* CarModelsViewModel.swift in Sources */,
+				475CFBD92C0B5A24004F08A8 /* CarRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
